@@ -1,0 +1,40 @@
+const img = (name) => `/images/${name}.webp`
+
+export const posts = [
+  {
+    id: 'b1',
+    slug: 'first-home-buying-checklist',
+    category: 'Buying guide',
+    title: 'The first-time buyer’s checklist: 12 things to verify before you sign',
+    excerpt: 'From RERA registration to the occupancy certificate, here’s what to check so your dream home doesn’t come with surprises.',
+    image: img('interior-kitchen-open'),
+    date: '2026-11-04',
+    readTime: 8,
+    author: 'Rohan Mehta',
+    body: ["Buying your first home is exciting — and it’s also the largest financial decision most of us will ever make. Before you sign an agreement for sale, spend an afternoon verifying the essentials.", "Start with the project’s RERA registration and check that the promoter details, approved plans and completion date on the RERA portal match what you’ve been told. For resale homes, ask for the full chain of title documents going back at least 30 years.", "Next, confirm the occupancy certificate (OC) and completion certificate. Without an OC, utility connections and home loans can be difficult. Ask the society for a no-dues certificate and review the last two years of maintenance bills.", "Finally, budget beyond the sticker price: stamp duty, registration, GST on under-construction homes, brokerage, interiors and moving costs typically add 8–12% to the total. Your Abode advisor can share a personalised checklist for any property you’re considering."],
+  },
+  {
+    id: 'b2',
+    slug: 'rental-yield-indian-cities-2026',
+    category: 'Investment',
+    title: 'Where rental yields are rising in 2026',
+    excerpt: 'We analysed lease data across six cities to find the neighbourhoods offering the best returns for investors this year.',
+    image: img('office-team'),
+    date: '2026-10-22',
+    readTime: 6,
+    author: 'Kabir Malhotra',
+    body: ["Rental yields in India’s top cities have edged up through 2026 as rents have outpaced capital values in several micro-markets. We analysed lease data from our own transactions and public listings across six cities.", "Bengaluru’s eastern corridor — Whitefield, Sarjapur Road and Devanahalli — continues to deliver some of the strongest gross yields for mid-size apartments, driven by steady demand from technology employers.", "In Mumbai, yields remain modest in prime residential areas, but Grade-A office space in BKC and Andheri East has seen meaningful rental growth with low vacancy. Hyderabad’s HITEC City offers a compelling mix of affordability and rental demand for studios and one-bedroom homes.", "As always, yield is only part of the story. Factor in vacancy periods, maintenance, property tax and the quality of tenant you can attract. Speak to our investment desk for a tailored analysis."],
+  },
+  {
+    id: 'b3',
+    slug: 'second-home-goa-guide',
+    category: 'Lifestyle',
+    title: 'Buying a second home in Goa: villages, villas and what it really costs',
+    excerpt: 'Assagao or Siolim? Villa or plot? A practical guide to owning a holiday home on the North Goa coast.',
+    image: img('interior-dining-garden'),
+    date: '2026-10-09',
+    readTime: 10,
+    author: 'Meera Iyer',
+    body: ["North Goa has become one of India’s most desirable second-home markets, and for good reason — great food, a relaxed pace of life and easy connectivity through two airports.", "Villages like Assagao and Siolim offer leafy lanes, Portuguese-era homes and newer boutique villa enclaves, while coastal areas such as Morjim and Candolim put you minutes from the beach. Each has a distinct character, so spend time in a few before deciding.", "Expect well-located villas to range from ₹3 crore to ₹10 crore and above, with plots in gated communities offering a more accessible entry point. Check zoning and conversion status carefully — not all land in Goa can be built on.", "Many owners offset running costs through managed holiday rentals. If that’s part of your plan, look for homes with a proven rental history, good access and a reliable local property manager."],
+  },
+]
